@@ -208,3 +208,8 @@ required-features = [ "isolation" ]
 [[example]]
 name = "run-iteration"
 path = "../../examples/run-iteration/main.rs"
+
+[[example]]
+name = "data-url"
+path = "../../examples/data-url/main.rs"
+required-features = [ "webview-data-url" ]

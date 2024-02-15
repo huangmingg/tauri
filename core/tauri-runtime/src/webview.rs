@@ -122,6 +122,7 @@ impl<T: UserEvent, R: Runtime<T>> PendingWebview<T, R> {
         label,
         ipc_handler: None,
         navigation_handler: None,
+        // This will never fail
         url: "tauri://localhost".to_string(),
         #[cfg(target_os = "android")]
         on_webview_created: None,
