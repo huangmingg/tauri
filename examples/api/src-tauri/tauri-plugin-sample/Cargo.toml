@@ -6,7 +6,7 @@ links = "tauri-plugin-sample"
 
 [dependencies]
 tauri = { path = "../../../../core/tauri" }
-log = "0.4"
+log = "0.4.21"
 serde = "1"
 thiserror = "1"
 

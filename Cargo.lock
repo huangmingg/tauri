@@ -3782,6 +3782,7 @@ dependencies = [
  "brotli",
  "cargo_metadata",
  "ctor",
+ "data-url",
  "dunce",
  "getrandom 0.2.12",
  "glob",
